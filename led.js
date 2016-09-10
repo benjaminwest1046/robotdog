@@ -33,8 +33,17 @@ board.on("ready", function() {
     pin: "A2",
     freq: 50
   });
+
   this.repl.inject( { legs:legs,
   led:led } );
-
+  
+  led.on(); 
+  
+  setInterval(function(){
+    led.off();
+    setTimeout(function(){
+      led.on();
+    }, 500)
+  }, 2000);
 
 });
