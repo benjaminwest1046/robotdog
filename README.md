@@ -1,6 +1,6 @@
 # robotdog
 
-# This repo is for a simple robot dog that was made by myself and Jamie King during a Nodebot meetup. We had approximately one day to hookup our environment, put together a robot and program it to do something sweet. 
+This repo is for a simple robot dog that was made by myself and Jamie King during a Nodebot meetup. We had approximately one day to hookup our environment, put together a robot and program it to do something sweet. 
 
 The following hardware was used on the project: 
 * Arduino Uno
